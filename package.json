@@ -1,0 +1,19 @@
+{
+  "name": "azure-function-headless-browser",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\"",
+    "postinstall": "bash install_font.sh"
+  },
+  "dependencies": {
+    "playwright": "^1.29.1",
+    "playwright-chromium": "^1.29.1",
+    "puppeteer": "^19.4.1",
+    "puppeteer-core": "^19.4.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.29.1"
+  }
+}
